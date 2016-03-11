@@ -1,0 +1,44 @@
+form.edit-schedule-form{
+	
+	color:#3375D6;
+	margin: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
+	width: 90%;
+	background-color:transparent;
+	border-color:#BBBBBB;
+	
+	border-bottom-style:double;
+	border-bottom-width:1px;
+	
+	border-top-style:double;
+	border-top-width:1px;
+}
+
+form.edit-schedule-form legend{
+	color: #5C00B8;
+}
+
+form.edit-schedule-form .form-group,
+form.edit-schedule-form input,
+form.edit-schedule-form button,
+form.edit-schedule-form a{
+	width:100%;
+	margin-bottom:5%;
+}
+
+/*-------------button color-------------*/
+form.edit-schedule-form .btn-default{
+	color:#3375D6; !important;
+}
+
+form.edit-schedule-form .glyphicon{
+	color:#3375D6;
+}
+
+table.edit-schedule-table{
+	width: 100%;
+}
+
+a.back{
+	margin:5%;
+}

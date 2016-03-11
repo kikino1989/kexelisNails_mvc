@@ -1,0 +1,69 @@
+img{
+	width: 90%;
+	height: 90%;
+	margin-left: 5%;
+}
+
+h3{
+	color: #5C00B8;
+}
+
+body{
+	color:#3D5C5C;
+}
+/*---------regular formating--------------*/
+div.contain{
+	background: -webkit-linear-gradient(right, #F5F5FF , #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #F5F5FF , #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #F5F5FF , #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #F5F5FF , #FFFFFF); /* Standard syntax */
+}
+
+/*hide menu button*/
+.menu-icon{
+	display: none;
+}
+
+nav.main-nav{
+	background-color:transparent;
+	border-right-style: solid;
+	border-right-color: silver;
+	border-right-width:1px;
+	
+	position:fixed;
+	float:left;
+	width:20%;
+	height:96%;
+	margin-top:1%;
+}
+
+nav.main-nav ul{
+	list-style: none;
+	width:100%;	
+	padding:20px;
+}
+
+nav.main-nav ul li{
+	text-align: right;
+	font-size:18px;
+	font-style: italic;
+	font-family: Courier New,Courier,Lucida Sans Typewriter,Lucida Typewriter,monospace;
+	width:100%;
+	padding:5px;
+}
+
+nav.main-nav ul li a{
+	text-decoration: none;
+}
+/*------------------content--------------------*/
+.content, footer{
+	padding-top: 2%;
+	margin-left: 22%;
+	width: 76%;
+	
+}
+
+/*----------------footer------------------*/
+.footer{
+	text-align:center;
+}

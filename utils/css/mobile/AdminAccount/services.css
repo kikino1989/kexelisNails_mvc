@@ -1,0 +1,40 @@
+form.services-form{
+	
+	color:#3375D6;
+	margin: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
+	width: 90%;
+	background-color:transparent;
+	border-color:#BBBBBB;
+	
+	border-bottom-style:double;
+	border-bottom-width:1px;
+	
+	border-top-style:double;
+	border-top-width:1px;
+}
+
+form.services-form legend{
+	color: #5C00B8;
+}
+
+form.services-form .form-group,
+form.services-form input,
+form.services-form button,
+form.services-form a{
+	width:100%;
+	margin-bottom:5%;
+}
+
+/*-------------button color-------------*/
+form.services-form .btn-default{
+	color:#3375D6; !important;
+}
+
+form.services-form .glyphicon{
+	color:#3375D6;
+}
+
+table.services-table{
+	width: 100%;
+}

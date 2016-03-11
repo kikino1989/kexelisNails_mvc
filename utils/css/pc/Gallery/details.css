@@ -1,0 +1,57 @@
+
+
+div.employee-desc, form.comment-it{
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+	
+	margin-top: 5%;
+}
+
+figure, form.comment-it{
+	margin: 5%;
+	width: 90%;
+}
+
+.comment-box{
+	width:90%;
+	min-height: 200px;
+}
+
+form.comment-it *{
+	margin: 5%;
+}
+
+input[type='range']{
+	margin-left: 5%;
+	width: 90%;
+}
+
+input[type='submit']{
+	width:90%;
+	margin:5%;
+}
+
+a.back{
+	margin:5%;
+}
+
+div.comment{
+	background: linear-gradient(#99CCFF, #EBF5FF);
+	padding: 5%;
+	
+	border-left-style: solid;
+	border-left-color: #BBBBBB;
+	border-left-width: 1px;
+	
+	border-top-style: solid;
+	border-top-color: #BBBBBB;
+	border-top-width: 1px;
+}
+
+div.rater .rating-star{
+	width: 80%;
+	margin-left: 5%;
+	position: relative;
+	float: left;
+}

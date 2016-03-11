@@ -1,0 +1,36 @@
+form.edit-service-form{
+	
+	color:#3375D6;
+	margin: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
+	width: 90%;
+	background-color:transparent;
+	border-color:#BBBBBB;
+	
+	border-bottom-style:double;
+	border-bottom-width:1px;
+	
+	border-top-style:double;
+	border-top-width:1px;
+}
+
+form.edit-service-form legend{
+	color: #5C00B8;
+}
+
+form.edit-service-form .form-group,
+form.edit-service-form input,
+form.edit-service-form button,
+form.edit-service-form a{
+	width:100%;
+	margin-bottom:5%;
+}
+
+/*-------------button color-------------*/
+form.edit-service-form .btn-default{
+	color:#3375D6; !important;
+}
+
+form.edit-service-form .glyphicon{
+	color:#3375D6;
+}

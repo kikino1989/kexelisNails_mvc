@@ -1,0 +1,141 @@
+img{
+	width: 100%;
+	max-height: 300px
+}
+
+h3{
+	color: #5C00B8;
+}
+
+body{
+	color:#3D5C5C;
+}
+/*---------regular formating--------------*/
+div.contain{
+	background: -webkit-linear-gradient(right, #F5F5FF , #FFFFFF); /* For Safari 5.1 to 6.0 */
+	background: -o-linear-gradient(right, #F5F5FF , #FFFFFF); /* For Opera 11.1 to 12.0 */
+	background: -moz-linear-gradient(right, #F5F5FF , #FFFFFF); /* For Firefox 3.6 to 15 */
+	background: linear-gradient(to right, #F5F5FF , #FFFFFF); /* Standard syntax */
+}
+
+nav.main-nav{
+	background-color:transparent;
+}
+
+nav.main-nav ul.hid{
+	display:none;
+}
+
+nav.main-nav ul.sh{
+	display:block;
+}
+
+nav.main-nav ul{
+	list-style: none;
+	width:100%;	
+	padding:0px;
+	margin:0px;
+}
+
+nav.main-nav ul li{
+	display:block;
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#BBBBBB;
+}
+
+nav.main-nav ul li, nav.main-nav div.menu-icon{
+	padding: 5px 5px 5px 5px;
+	text-align: right;
+	width:100%;
+}
+
+nav.main-nav ul li a, nav.main-nav div.menu-icon a{
+	text-align: right;
+	width:100%;
+	margin-right: 5%;
+}
+
+nav.main-nav div.menu-icon{
+	border-bottom-style:solid;
+	border-width:1px;
+	border-color:#BBBBBB;
+	
+	-moz-box-shadow:    0 1px 5px 2px #ccc;
+	-webkit-box-shadow: 0 1px 5px 2px #ccc;
+	box-shadow:         0 1px 5px 2px #ccc;
+	
+}
+
+nav.main-nav ul li:hover{
+	width:100%;
+	
+	border-bottom-style:solid;
+	border-bottom-width:1px;
+	border-bottom-color:#BBBBBB;
+	
+	-moz-box-shadow:    inset 0 0 6px #ccc;
+	-webkit-box-shadow: inset 0 0 6px #ccc;
+	box-shadow:         inset 0 0 6px #ccc;
+}
+
+nav.main-nav ul li a:link{
+	text-decoration:none;
+}
+
+/*-------------search-------------------*/
+nav.main-nav div.form-group{
+	position: relative;
+	float:left;
+	width: 70%;
+}
+
+nav.main-nav div.form-group input{
+	width:100%;
+}
+
+nav.main-nav button.searcher{
+	margin-right:5%;
+}
+/*---------------article----------------*/
+
+article{
+	width:100%;
+}
+
+/*-------------button color-------------*/
+
+nav.main-nav .btn-default:hover, nav.main-nav .btn-default:focus{
+	background-color: #295EAB;
+}
+
+nav.main-nav .btn-default{
+	background-color: #3375D6;
+}
+
+nav.main-nav .glyphicon{
+	color:#FFFFFF;
+}
+
+footer{
+	text-align:center;
+}
+
+/*---------------sub menu----------------*/
+ul{
+	border-left-color: silver;
+	border-left-style: solid;
+	border-left-width: 1px;
+	
+	width: 80%;
+	margin-left: 10%;
+}
+ul.sub-menu li{
+	list-style: none;
+	padding: 1%;
+}
+
+ul.sub-menu a{
+	text-decoration: none;
+	padding: 5%;
+}

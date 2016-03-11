@@ -1,0 +1,39 @@
+
+
+div.picture-album{
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+	
+	margin-top: 5%;
+}
+
+form legend{
+	text-align: center;	
+	color: #5C00B8;
+}
+
+form label{
+	margin-left: 5%;
+	width: 90%;
+}
+
+figure{
+	margin: 5%;
+	width: 90%;
+}
+
+form.upload{
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+	
+	margin-top: 5%;
+	margin: 5%;
+	width: 90%;
+}
+
+form.upload input{
+	width: 100%;
+}
+

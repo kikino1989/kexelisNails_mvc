@@ -1,0 +1,14 @@
+
+
+div.employee-desc{
+	border-style: solid;
+	border-color: #BBBBBB;
+	border-width: 1px;
+	
+	margin-top: 5%;
+}
+
+figure{
+	margin: 5%;
+	width: 90%;
+}

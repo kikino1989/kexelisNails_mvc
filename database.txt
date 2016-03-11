@@ -1,0 +1,36 @@
+user
+	id
+	firstname
+	lastname
+	img
+	email
+	phone
+	password
+	role	
+appointment
+	id
+	userid
+	employeeid
+	time
+	date
+	duration
+employee_services
+	id
+	employeeid
+	serviceid
+image
+	id
+	name
+	path
+	owner
+service
+	id
+	name
+	duration
+	estimated price
+	description
+comment
+	id
+	entityid
+	commenttext
+	

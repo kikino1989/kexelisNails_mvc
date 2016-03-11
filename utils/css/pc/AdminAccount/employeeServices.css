@@ -1,0 +1,36 @@
+form.employee-services-form{
+	
+	color:#3375D6;
+	margin: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
+	width: 90%;
+	background-color:transparent;
+	border-color:#BBBBBB;
+	
+	border-bottom-style:double;
+	border-bottom-width:1px;
+	
+	border-top-style:double;
+	border-top-width:1px;
+}
+
+form.employee-services-form legend{
+	color: #5C00B8;
+}
+
+form.employee-services-form .form-group,
+form.employee-services-form input,
+form.employee-services-form button,
+form.employee-services-form a{
+	width:100%;
+	margin-bottom:5%;
+}
+
+/*-------------button color-------------*/
+form.employee-services-form .btn-default{
+	color:#3375D6; !important;
+}
+
+form.employee-services-form .glyphicon{
+	color:#3375D6;
+}

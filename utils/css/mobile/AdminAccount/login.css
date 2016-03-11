@@ -1,0 +1,36 @@
+form.login-form{
+	
+	color:#3375D6;
+	margin: 5% 5% 5% 5%;
+	padding: 5% 5% 5% 5%;
+	width: 90%;
+	background-color:transparent;
+	border-color:#BBBBBB;
+	
+	border-bottom-style:double;
+	border-bottom-width:1px;
+	
+	border-top-style:double;
+	border-top-width:1px;
+}
+
+form.login-form legend{
+	color: #5C00B8;
+}
+
+form.login-form .form-group,
+form.login-form input,
+form.login-form button,
+form.login-form a{
+	width:100%;
+	margin-bottom:5%;
+}
+
+/*-------------button color-------------*/
+form.login-form .btn-default{
+	color:#3375D6; !important;
+}
+
+form.login-form .glyphicon{
+	color:#3375D6;
+}
